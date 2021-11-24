@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Weekly overdue check</description>
+        <internal_name>weekly_overdue_check</internal_name>
+        <label_cache>[{"name":"b1adf410-01b0-4ffd-9d27-1c8405c64452.property_value","label":"1➛Property value","reference_display":"Property value","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"4e906a63-1963-42d6-a58a-baa99ad99704"}},{"name":"b1adf410-01b0-4ffd-9d27-1c8405c64452.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"510cc34f-ddd6-4e0b-8dc9-fa1adf08c623"}},{"name":"b1adf410-01b0-4ffd-9d27-1c8405c64452.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD220099a8bd0401108c2b0785b49019d7","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"09af4733-61ea-45a5-b660-102a006d011d"}},{"name":"ccb1e116-37ea-45cc-a300-eb449e581a7e.property_value","label":"1➛Property value","reference_display":"Property value","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"4e906a63-1963-42d6-a58a-baa99ad99704"}},{"name":"ccb1e116-37ea-45cc-a300-eb449e581a7e.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"510cc34f-ddd6-4e0b-8dc9-fa1adf08c623"}},{"name":"ccb1e116-37ea-45cc-a300-eb449e581a7e.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD220099a8bd0401108c2b0785b49019d7","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"09af4733-61ea-45a5-b660-102a006d011d"}},{"name":"fcfd2164-eab4-4da3-936e-ae3e4ca3997c.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD220099a8bd0401108c2b0785b49019d7","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"09af4733-61ea-45a5-b660-102a006d011d"}},{"name":"fcfd2164-eab4-4da3-936e-ae3e4ca3997c.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"510cc34f-ddd6-4e0b-8dc9-fa1adf08c623"}},{"name":"fcfd2164-eab4-4da3-936e-ae3e4ca3997c.property_value","label":"1➛Property value","reference_display":"Property value","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"4e906a63-1963-42d6-a58a-baa99ad99704"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Weekly overdue check</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-23 16:30:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eeb0beb0074001100608fea89c1ed04f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Weekly overdue check</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt Spoke" source="x_708935_needit_sp">0dc80524070401100608fea89c1ed030</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">0dc80524070401100608fea89c1ed030</sys_scope>
+        <sys_update_name>sys_hub_flow_eeb0beb0074001100608fea89c1ed04f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-23 16:35:40</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=eeb0beb0074001100608fea89c1ed04f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=eeb0beb0074001100608fea89c1ed04f"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=eeb0beb0074001100608fea89c1ed04f^sys_idNOT IN19b1fe34074001100608fea89c1ed065"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Weekly overdue check">eeb0beb0074001100608fea89c1ed04f</flow>
+        <name>Weekly</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-23 16:34:56</sys_created_on>
+        <sys_id>19b1fe34074001100608fea89c1ed065</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-23 16:35:40</sys_updated_on>
+        <trigger_definition display_value="Weekly">cf352104c32222002841b63b12d3ae1f</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>weekly</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=19b1fe34074001100608fea89c1ed065"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>19b1fe34074001100608fea89c1ed065</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-23 16:34:56</sys_created_on>
+        <sys_id>1db1fe34074001100608fea89c1ed066</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-23 16:34:56</sys_updated_on>
+        <value>1970-01-01 23:00:00</value>
+        <variable display_value="Time">a745a104c32222002841b63b12d3ae18</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>19b1fe34074001100608fea89c1ed065</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-23 16:34:56</sys_created_on>
+        <sys_id>e1b1fe34074001100608fea89c1ed067</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-23 16:34:56</sys_updated_on>
+        <value>5</value>
+        <variable display_value="Day of Week">c685a104c32222002841b63b12d3aed3</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=eeb0beb0074001100608fea89c1ed04f^sys_idNOT INeeb0beb0074001100608fea89c1ed050"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>eeb0beb0074001100608fea89c1ed04f</id>
+        <name>Weekly overdue check</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-23 16:30:38</sys_created_on>
+        <sys_id>eeb0beb0074001100608fea89c1ed050</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-23 16:30:38</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>
